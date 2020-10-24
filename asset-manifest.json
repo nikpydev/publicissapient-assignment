@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/publicissapient-assignment/static/css/main.e7b31dd1.chunk.css",
+    "main.js": "/publicissapient-assignment/static/js/main.91b8dcd0.chunk.js",
+    "main.js.map": "/publicissapient-assignment/static/js/main.91b8dcd0.chunk.js.map",
+    "runtime-main.js": "/publicissapient-assignment/static/js/runtime-main.563673f6.js",
+    "runtime-main.js.map": "/publicissapient-assignment/static/js/runtime-main.563673f6.js.map",
+    "static/css/2.3cf5d70f.chunk.css": "/publicissapient-assignment/static/css/2.3cf5d70f.chunk.css",
+    "static/js/2.775fcf25.chunk.js": "/publicissapient-assignment/static/js/2.775fcf25.chunk.js",
+    "static/js/2.775fcf25.chunk.js.map": "/publicissapient-assignment/static/js/2.775fcf25.chunk.js.map",
+    "index.html": "/publicissapient-assignment/index.html",
+    "precache-manifest.bebaf7562c30382824d81e9f3cbaec50.js": "/publicissapient-assignment/precache-manifest.bebaf7562c30382824d81e9f3cbaec50.js",
+    "service-worker.js": "/publicissapient-assignment/service-worker.js",
+    "static/css/2.3cf5d70f.chunk.css.map": "/publicissapient-assignment/static/css/2.3cf5d70f.chunk.css.map",
+    "static/css/main.e7b31dd1.chunk.css.map": "/publicissapient-assignment/static/css/main.e7b31dd1.chunk.css.map",
+    "static/js/2.775fcf25.chunk.js.LICENSE.txt": "/publicissapient-assignment/static/js/2.775fcf25.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.563673f6.js",
+    "static/css/2.3cf5d70f.chunk.css",
+    "static/js/2.775fcf25.chunk.js",
+    "static/css/main.e7b31dd1.chunk.css",
+    "static/js/main.91b8dcd0.chunk.js"
+  ]
+}
