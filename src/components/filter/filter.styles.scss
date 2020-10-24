@@ -1,0 +1,23 @@
+.filter {
+    grid-column: filter-start / filter-end;
+    background-color: #ffffff;
+    margin: 8px;
+
+    @media only screen and (max-width: 700px) {
+        grid-column: center-start / center-end;
+    }
+
+    @media only screen and (max-width: 625px) {
+        grid-column: full-start / full-end;
+    }
+
+    .heading-1 {
+        font-weight: bold;
+    }
+
+    hr {
+        width: 75%;
+        margin: 0 auto;
+        background-color: #000;
+    }
+}

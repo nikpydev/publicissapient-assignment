@@ -1,0 +1,21 @@
+.homepage {
+  display: grid;
+  grid-template-columns:
+    [filter-start full-start] 250px [filter-end main-start] minmax(3rem, 1fr)
+    [center-start]
+    repeat(8, [col-start] minmax(min-content, 140px) [col-end]) [center-end]
+    minmax(3rem, 1fr)
+    [full-end main-end];
+  background-color: #ddd;
+
+  @media screen and (max-width: 700px) {
+    grid-template-columns:
+      [full-start] minmax(6rem, 1fr) [center-start] repeat(
+        8,
+        [col-start] minmax(min-content, 1fr) [col-end]
+      )
+      [center-end]
+      minmax(6rem, 1fr)
+      [full-end];
+  }
+}
