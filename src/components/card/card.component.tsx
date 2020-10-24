@@ -13,7 +13,7 @@ const Card: React.FC<LaunchDetails> = ({
 }) => {
   return (
     <div className={"card-component m-2"}>
-      <div className="card p-3">
+      <div className="individual-card card p-3">
         <img
         style={{backgroundColor: "#ddd"}}
           src={image_url}
