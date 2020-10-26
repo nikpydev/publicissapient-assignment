@@ -42,7 +42,7 @@ const SpaceProgramsDetails = () => {
                 flight_number,
                 mission_id,
                 mission_name,
-                landing_intent: item.rocket.first_stage.cores[0].landing_intent,
+                land_success: item.rocket.first_stage.cores[0].land_success,
                 launch_success,
                 launch_year,
                 image_url: item.links.mission_patch_small,
@@ -63,7 +63,7 @@ const SpaceProgramsDetails = () => {
           flight_number,
           mission_id,
           mission_name,
-          landing_intent,
+          land_success,
           launch_success,
           launch_year,
           image_url,
@@ -74,7 +74,7 @@ const SpaceProgramsDetails = () => {
               flight_number={flight_number}
               mission_id={mission_id}
               mission_name={mission_name}
-              landing_intent={landing_intent}
+              land_success={land_success}
               launch_success={launch_success}
               launch_year={launch_year}
               image_url={image_url}

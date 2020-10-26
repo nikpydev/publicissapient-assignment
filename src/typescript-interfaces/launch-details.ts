@@ -4,6 +4,6 @@ export interface LaunchDetails {
   mission_id: Array<string>;
   launch_year: string;
   launch_success: boolean;
-  landing_intent: boolean;
+  land_success: boolean;
   image_url: string;
 }

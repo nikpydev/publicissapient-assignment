@@ -25,7 +25,7 @@ const Filter = () => {
       <div className="row">
         <div className="col-6 text-center">
           <button
-            className="btn btn-success m-3"
+            className="btn btn-sm btn-success m-3"
             style={{backgroundColor: queryParams.launchYear.toString() === "2006" ? "lightgreen" : "green"}}
             onClick={() => {
               handleSetYear(2006);
@@ -34,7 +34,7 @@ const Filter = () => {
             2006
           </button>
           <button
-            className="btn btn-success m-3"
+            className="btn btn-sm btn-success m-3"
             style={{backgroundColor: queryParams.launchYear.toString() === "2008" ? "lightgreen" : "green"}}
             onClick={() => {
               handleSetYear(2008);
@@ -43,7 +43,7 @@ const Filter = () => {
             2008
           </button>
           <button
-            className="btn btn-success m-3"
+            className="btn btn-sm btn-success m-3"
             style={{backgroundColor: queryParams.launchYear.toString() === "2010" ? "lightgreen" : "green"}}
             onClick={() => {
               handleSetYear(2010);
@@ -52,7 +52,7 @@ const Filter = () => {
             2010
           </button>
           <button
-            className="btn btn-success m-3"
+            className="btn btn-sm btn-success m-3"
             style={{backgroundColor: queryParams.launchYear.toString() === "2012" ? "lightgreen" : "green"}}
             onClick={() => {
               handleSetYear(2012);
@@ -61,7 +61,7 @@ const Filter = () => {
             2012
           </button>
           <button
-            className="btn btn-success m-3"
+            className="btn btn-sm btn-success m-3"
             style={{backgroundColor: queryParams.launchYear.toString() === "2014" ? "lightgreen" : "green"}}
             onClick={() => {
               handleSetYear(2014);
@@ -70,7 +70,7 @@ const Filter = () => {
             2014
           </button>
           <button
-            className="btn btn-success m-3"
+            className="btn btn-sm btn-success m-3"
             style={{backgroundColor: queryParams.launchYear.toString() === "2016" ? "lightgreen" : "green"}}
             onClick={() => {
               handleSetYear(2016);
@@ -79,7 +79,7 @@ const Filter = () => {
             2016
           </button>
           <button
-            className="btn btn-success m-3"
+            className="btn btn-sm btn-success m-3"
             style={{backgroundColor: queryParams.launchYear.toString() === "2018" ? "lightgreen" : "green"}}
             onClick={() => {
               handleSetYear(2018);
@@ -88,7 +88,7 @@ const Filter = () => {
             2018
           </button>
           <button
-            className="btn btn-success m-3"
+            className="btn btn-sm btn-success m-3"
             style={{backgroundColor: queryParams.launchYear.toString() === "2020" ? "lightgreen" : "green"}}
             onClick={() => {
               handleSetYear(2020);
@@ -100,7 +100,7 @@ const Filter = () => {
 
         <div className="col-6 text-center">
           <button
-            className="btn btn-success m-3"
+            className="btn btn-sm btn-success m-3"
             style={{backgroundColor: queryParams.launchYear.toString() === "2007" ? "lightgreen" : "green"}}
             onClick={() => {
               handleSetYear(2007);
@@ -109,7 +109,7 @@ const Filter = () => {
             2007
           </button>
           <button
-            className="btn btn-success m-3"
+            className="btn btn-sm btn-success m-3"
             style={{backgroundColor: queryParams.launchYear.toString() === "2009" ? "lightgreen" : "green"}}
             onClick={() => {
               handleSetYear(2009);
@@ -118,7 +118,7 @@ const Filter = () => {
             2009
           </button>
           <button
-            className="btn btn-success m-3"
+            className="btn btn-sm btn-success m-3"
             style={{backgroundColor: queryParams.launchYear.toString() === "2011" ? "lightgreen" : "green"}}
             onClick={() => {
               handleSetYear(2011);
@@ -127,7 +127,7 @@ const Filter = () => {
             2011
           </button>
           <button
-            className="btn btn-success m-3"
+            className="btn btn-sm btn-success m-3"
             style={{backgroundColor: queryParams.launchYear.toString() === "2013" ? "lightgreen" : "green"}}
             onClick={() => {
               handleSetYear(2013);
@@ -136,7 +136,7 @@ const Filter = () => {
             2013
           </button>
           <button
-            className="btn btn-success m-3"
+            className="btn btn-sm btn-success m-3"
             style={{backgroundColor: queryParams.launchYear.toString() === "2015" ? "lightgreen" : "green"}}
             onClick={() => {
               handleSetYear(2015);
@@ -145,7 +145,7 @@ const Filter = () => {
             2015
           </button>
           <button
-            className="btn btn-success m-3"
+            className="btn btn-sm btn-success m-3"
             style={{backgroundColor: queryParams.launchYear.toString() === "2017" ? "lightgreen" : "green"}}
             onClick={() => {
               handleSetYear(2017);
@@ -154,7 +154,7 @@ const Filter = () => {
             2017
           </button>
           <button
-            className="btn btn-success m-3"
+            className="btn btn-sm btn-success m-3"
             style={{backgroundColor: queryParams.launchYear.toString() === "2019" ? "lightgreen" : "green"}}
             onClick={() => {
               handleSetYear(2019);
@@ -170,7 +170,7 @@ const Filter = () => {
       <div className="row">
         <div className="col-6 text-center">
           <button
-            className="btn btn-success m-3"
+            className="btn btn-sm btn-success m-3"
             style={{backgroundColor: queryParams.launchSuccess.toString() === "true" ? "lightgreen" : "green"}}
             onClick={() => {
               handleChangeSuccessfulLaunch(true);
@@ -181,7 +181,7 @@ const Filter = () => {
         </div>
         <div className="col-6 text-center">
           <button
-            className="btn btn-success m-3"
+            className="btn btn-sm btn-success m-3"
             style={{backgroundColor: queryParams.launchSuccess.toString() === "false" ? "lightgreen" : "green"}}
             onClick={() => {
               handleChangeSuccessfulLaunch(false);
@@ -197,7 +197,7 @@ const Filter = () => {
       <div className="row">
         <div className="col-6 text-center">
           <button
-            className="btn btn-success m-3"
+            className="btn btn-sm btn-success m-3"
             style={{backgroundColor: queryParams.landSuccess.toString() === "true" ? "lightgreen" : "green"}}
             onClick={() => {
               handleChangeSuccessfulLanding(true);
@@ -208,7 +208,7 @@ const Filter = () => {
         </div>
         <div className="col-6 text-center">
           <button
-            className="btn btn-success m-3"
+            className="btn btn-sm btn-success m-3"
             style={{backgroundColor: queryParams.landSuccess.toString() === "false" ? "lightgreen" : "green"}}
             onClick={() => {
               handleChangeSuccessfulLanding(false);

@@ -6,7 +6,7 @@ const Card: React.FC<LaunchDetails> = ({
   flight_number,
   mission_id,
   mission_name,
-  landing_intent,
+  land_success,
   launch_success,
   launch_year,
   image_url
@@ -43,7 +43,7 @@ const Card: React.FC<LaunchDetails> = ({
           </div>
 
           <p className="card-text heading-3">
-            Successful Landing: {landing_intent?.toString()}
+            Successful Landing: {land_success?.toString()}
           </p>
         </div>
       </div>
